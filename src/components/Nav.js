@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../jmresume.pdf';
 
 function Nav({ currentPage, handlePageChange }) {
   return (
@@ -30,15 +31,11 @@ function Nav({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      {/* <li className="nav-item">
-        <a
-          href="#"
-          onClick={() => handlePageChange('Blog')}
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
-        >
+      <li className="nav-item">
+        <a href={resume}>
           Resume 
         </a>
-      </li> */}
+      </li>
     </ul>
   );
 }

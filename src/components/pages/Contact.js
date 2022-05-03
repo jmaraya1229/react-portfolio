@@ -1,33 +1,80 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { validateEmail } from '../../utils/helpers';
+
 
 function Contact() {
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  const [message, setMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === 'email') {
+      setEmail(inputValue);
+    } else if (inputType === 'name') {
+      setName(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
+      return;
+    }
+
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
+
   return (
-<div>
-    <p>
-      Hello 
-    </p>
-    {/* <form className="form">
-      <input
-        value={firstName}
-        name="firstName"
-        onChange={handleInputChange}
-        type="text"
-        placeholder="First Name"
-      />
-      <input
-        value={lastName}
-        name="lastName"
-        onChange={handleInputChange}
-        type="text"
-        placeholder="Last Name"
-      />
-      <button type="button" onClick={handleFormSubmit}>
-        Submit
-      </button>
-    </form> */}
-  </div>
+    <div>
+      <h1>Hello! Feel free to contact me if you have any questions or oppurtunites available!</h1>
+      <form className="form">
+        <div>
+          <input
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="name"
+          />
+        </div>
+        <div>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="email"
+          />
+        </div>
+        <div>
+        <textarea
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          type="message"
+          placeholder="message"
+        />
+        </div>
+        <button type="button" onClick={handleFormSubmit}>Submit</button>
+      </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+    </div>
   );
 }
-
 
 export default Contact

@@ -1,6 +1,7 @@
 import React from 'react';
+// import tasktrain from '../../images/TaskTrainScreenshot.png'
 
-export default function Projects() {
+function Projects() {
     return (
         <div>
             <h1>Projects</h1>
@@ -8,7 +9,7 @@ export default function Projects() {
                     <ion-icon name="train-outline"></ion-icon>
                     Task Train
                 </h2>
-                    <img src=''></img>
+                    <img></img>
                     <p>
                         Task Train is a web application that allows users to either request for 
                         help from other users or to help others with everyday tasks within their zip code. 
@@ -73,3 +74,5 @@ export default function Projects() {
         </div>
     );
 }
+
+export default Projects

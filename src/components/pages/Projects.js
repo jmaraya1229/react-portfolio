@@ -35,7 +35,35 @@ export default function Projects() {
                         Pawpal is a pet adoption website that uses the Petfinder API to pull data for 
                         readily adoptable pets in a given radius of a zipcode.
                     </p>
+                    <a href="https://jmaraya1229.github.io/Pawpal/" target="_blank">
+                        <p>
+                            <ion-icon name="paw-outline"></ion-icon>
+                            Website
+                        </p>
+                    </a>
                     <a href="https://github.com/jmaraya1229/Pawpal" target="_blank">
+                        <p>
+                            <ion-icon name="logo-github"></ion-icon>
+                            Repo
+                        </p>
+                    </a>
+
+                <h2>
+                    <ion-icon name="document-text-outline"></ion-icon>
+                    Just Another Text Editor
+                </h2>
+                    <img src=''></img>
+                    <p>
+                        Just Another Text Editor (or J.A.T.E) is a text editor that the user can choose to use online
+                        or to use offline by downloading the app.
+                    </p>
+                    <a href="https://jmaraya-texteditor.herokuapp.com/" target="_blank">
+                        <p>
+                            <ion-icon name="document-text-outline"></ion-icon>
+                            Live Heroku link
+                        </p>
+                    </a>
+                    <a href="https://github.com/jmaraya1229/textEditor" target="_blank">
                         <p>
                             <ion-icon name="logo-github"></ion-icon>
                             Repo

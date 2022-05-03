@@ -4,6 +4,7 @@ import Footer from './Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import { Grommet } from 'grommet';
 
 
 export default function Container() {

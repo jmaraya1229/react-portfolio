@@ -70,6 +70,64 @@ function Projects() {
                             Repo
                         </p>
                     </a>
+
+                <h2>
+                    <ion-icon name="pencil-outline"></ion-icon>
+                    Note Taker
+                </h2>
+                    <img></img>
+                    <p>
+                        Note taker is an online application that allows the user to create a to-do list.
+                    </p>
+                    <a href="https://note-taker-jessemaraya.herokuapp.com/" target="_blank">
+                        <p>
+                            <ion-icon name="pencil-outline"></ion-icon>
+                            Live Heroku link
+                        </p>
+                    </a>
+                    <a href="https://github.com/jmaraya1229/NoteTaker" target="_blank">
+                        <p>
+                            <ion-icon name="logo-github"></ion-icon>
+                            Repo
+                        </p>
+                    </a>
+
+                <h2>
+                    <ion-icon name="cloudy-night-outline"></ion-icon>
+                    Weather Dashboard
+                </h2>
+                    <img></img>
+                    <p>
+                        Weather Dashboard is an online application that gives the user a current day and seven day 
+                        forecast of a specified city.
+                    </p>
+                    <a href="https://jmaraya1229.github.io/WeatherDashboard/" target="_blank">
+                        <p>
+                            <ion-icon name="cloudy-night-outline"></ion-icon>
+                            Website
+                        </p>
+                    </a>
+                    <a href="https://github.com/jmaraya1229/WeatherDashboard" target="_blank">
+                        <p>
+                            <ion-icon name="logo-github"></ion-icon>
+                            Repo
+                        </p>
+                    </a>
+
+                <h2>
+                    <ion-icon name="people-outline"></ion-icon>
+                    Employee Tracker
+                </h2>
+                    <img></img>
+                    <p>
+                    The following application will allow the user to manage an employee database using Node.js, Inquirer, and MySQL.
+                    </p>
+                    <a href="https://github.com/jmaraya1229/EmployeeTracker" target="_blank">
+                        <p>
+                            <ion-icon name="logo-github"></ion-icon>
+                            Repo
+                        </p>
+                    </a>
             
         </div>
     );

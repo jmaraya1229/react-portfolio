@@ -4,10 +4,9 @@ import Footer from './Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
-import { Grommet } from 'grommet';
 
 
-export default function Container() {
+function Container() {
     const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
@@ -29,4 +28,6 @@ export default function Container() {
             <Footer />
         </div>
     )
-}
+};
+
+export default Container

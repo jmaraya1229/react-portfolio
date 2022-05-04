@@ -1,10 +1,10 @@
 import React from 'react';
 import resume from '../jmresume.pdf';
 
+
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <nav className="navbar">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -12,8 +12,7 @@ function Nav({ currentPage, handlePageChange }) {
         >
           About
         </a>
-      </li>
-      <li className="nav-item">
+
         <a
           href="#projects"
           onClick={() => handlePageChange('Projects')}
@@ -21,8 +20,7 @@ function Nav({ currentPage, handlePageChange }) {
         >
           Projects
         </a>
-      </li>
-      <li className="nav-item">
+
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -30,13 +28,11 @@ function Nav({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </li>
-      <li className="nav-item">
+
         <a href={resume}>
           Resume 
         </a>
-      </li>
-    </ul>
+    </nav>
   );
 }
 

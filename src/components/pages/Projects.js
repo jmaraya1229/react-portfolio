@@ -6,6 +6,7 @@ import note from '../../images/notetaker.png';
 import weather from '../../images/weather.png';
 import employee from '../../images/employeetracker.png';
 
+
 function Projects() {
     return (
         <div>

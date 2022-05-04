@@ -17,7 +17,9 @@ const styles = {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        fontSize: '30px'
+        fontSize: '30px',
+        backgroundColor: 'white',
+        opacity: '.7'
     },
 }
 

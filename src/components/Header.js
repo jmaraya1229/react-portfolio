@@ -10,18 +10,20 @@ const styles = {
     paddingBottom: '10px',
     display: 'flex',
     justifyContent: 'center',
-    flexShrink: '2',
+    flexWrap: 'wrap',
     textAlign: 'right',
     fontSize: '25px',
     display: 'flex'
   },
   box: {
     border: '1px solid navy',
+    display: 'flex',
+    flexWrap: 'wrap',
     backgroundColor: 'white',
-    marginRight: '10px',
-    height: '100%',
-    paddingRight: '3px',
-    paddingLeft: '3px',
+    marginRight: '20px',
+    paddingRight: '5px',
+    paddingLeft: '5px',
+    borderRadius: '15px',
   },
 }
 

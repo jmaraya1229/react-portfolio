@@ -38,21 +38,35 @@ function Contact() {
     div: {
       display: 'flex',
       justifyContent: 'center',
-      flex: 'nowrap'
+      flex: 'nowrap',
     },
-
+    h1: {
+      textAlign: 'center', 
+      fontSize: '30px', 
+      width: '50%',
+      display: 'flex',
+      justifyContent: 'center'
+    },
+    box: {
+      height: '30px',
+      width: '200px',
+      marginBottom: '15px'
+    }
   };
 
   return (
     <div>
-    <h1 style={{textAlign: 'center', fontSize: '40px'}}>
-      Hello! Feel free to contact me if you have any questions or oppurtunites available!
-    </h1>
+      <div style={styles.div}>
+      <h1 style={styles.h1}>
+        Hello! Feel free to contact me if you have any questions or opportunites available!
+      </h1>
+      </div>
 
       <div style={styles.div}>
       <form className="form">
         <div>
-          <input
+          <input 
+            style={styles.box}
             value={name}
             name="name"
             onChange={handleInputChange}
@@ -63,6 +77,7 @@ function Contact() {
 
         <div>
           <input
+            style={styles.box}
             value={email}
             name="email"
             onChange={handleInputChange}
@@ -74,6 +89,7 @@ function Contact() {
         <div>
         <textarea
           value={message}
+          style={{ height:'150px', width: '250px'}}
           name="message"
           onChange={handleInputChange}
           type="message"

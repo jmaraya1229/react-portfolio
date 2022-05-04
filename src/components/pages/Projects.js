@@ -10,13 +10,19 @@ const styles ={
     h1: {
         fontSize: '50px',
         textAlign: 'center',
-
     },
     h2: {
         fontSize: '35px',
+        backgroundColor: 'white',
+        opacity: '.8',
+        borderRadius: '20px',
     },
     p: {
         fontSize: '20px',
+        backgroundColor: 'white',
+        opacity: '.8',
+        borderRadius: '20px',
+        margin: '15px'
     },
     div:{
         border: '1px solid black',
@@ -25,8 +31,6 @@ const styles ={
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'center',
-
-        
     },
     flex: {
         display: 'flex',

@@ -22,7 +22,6 @@ const styles ={
         border: '1px solid black',
         padding: '5px',
         width: '500px',
-        height: '500px',
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'center',
@@ -32,7 +31,7 @@ const styles ={
     flex: {
         display: 'flex',
         flexWrap: 'wrap',
-        width: '95%',
+        width: '100%',
         justifyContent: 'center',
         gap: '10px'
     }

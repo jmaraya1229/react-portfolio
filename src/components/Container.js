@@ -22,7 +22,7 @@ function Container() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div style={{paddingTop: '60px'}}>
+        <div style={{paddingTop: '30px'}}>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer />

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
-
 function Contact() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
@@ -35,9 +34,22 @@ function Contact() {
     setMessage('');
   };
 
+  const styles = {
+    div: {
+      display: 'flex',
+      justifyContent: 'center',
+      flex: 'nowrap'
+    },
+
+  };
+
   return (
     <div>
-      <h1>Hello! Feel free to contact me if you have any questions or oppurtunites available!</h1>
+    <h1 style={{textAlign: 'center', fontSize: '40px'}}>
+      Hello! Feel free to contact me if you have any questions or oppurtunites available!
+    </h1>
+
+      <div style={styles.div}>
       <form className="form">
         <div>
           <input
@@ -48,6 +60,7 @@ function Contact() {
             placeholder="name"
           />
         </div>
+
         <div>
           <input
             value={email}
@@ -57,6 +70,7 @@ function Contact() {
             placeholder="email"
           />
         </div>
+
         <div>
         <textarea
           value={message}
@@ -66,13 +80,16 @@ function Contact() {
           placeholder="message"
         />
         </div>
+
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
+
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      </div>
     </div>
   );
 }

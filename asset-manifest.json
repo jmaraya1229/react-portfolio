@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.4cd826d5.css",
-    "main.js": "/my-app/static/js/main.583e94ae.js",
-    "static/js/787.a2cb61a6.chunk.js": "/my-app/static/js/787.a2cb61a6.chunk.js",
-    "static/media/FancyMe.JPG": "/my-app/static/media/FancyMe.19072ac068ce49def3b9.JPG",
-    "static/media/Pawpal-screenshot.png": "/my-app/static/media/Pawpal-screenshot.8fc536a07a40a3a6f74a.png",
-    "static/media/cherryblossom.png": "/my-app/static/media/cherryblossom.b7d41b8b4b2ebe34354c.png",
-    "static/media/employeetracker.png": "/my-app/static/media/employeetracker.9af42a82a59efe56672b.png",
-    "static/media/weather.png": "/my-app/static/media/weather.096a3edca457e5aa6d46.png",
-    "static/media/notetaker.png": "/my-app/static/media/notetaker.8c8062e60af89d834d16.png",
-    "static/media/jmresume.pdf": "/my-app/static/media/jmresume.bd4738da96f3cff05262.pdf",
-    "static/media/text-editor-screenshot.png": "/my-app/static/media/text-editor-screenshot.8b2c75cbce366a82ccee.png",
-    "static/media/TaskTrainLoginScreenshot.png": "/my-app/static/media/TaskTrainLoginScreenshot.5c8560f23e928bce49df.png",
-    "index.html": "/my-app/index.html",
-    "main.4cd826d5.css.map": "/my-app/static/css/main.4cd826d5.css.map",
-    "main.583e94ae.js.map": "/my-app/static/js/main.583e94ae.js.map",
-    "787.a2cb61a6.chunk.js.map": "/my-app/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.22d9e1e7.css",
+    "main.js": "/static/js/main.e3dd0726.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/FancyMe.JPG": "/static/media/FancyMe.19072ac068ce49def3b9.JPG",
+    "static/media/Pawpal-screenshot.png": "/static/media/Pawpal-screenshot.8fc536a07a40a3a6f74a.png",
+    "static/media/cherryblossom.png": "/static/media/cherryblossom.b7d41b8b4b2ebe34354c.png",
+    "static/media/employeetracker.png": "/static/media/employeetracker.9af42a82a59efe56672b.png",
+    "static/media/weather.png": "/static/media/weather.096a3edca457e5aa6d46.png",
+    "static/media/notetaker.png": "/static/media/notetaker.8c8062e60af89d834d16.png",
+    "static/media/jmresume.pdf": "/static/media/jmresume.bd4738da96f3cff05262.pdf",
+    "static/media/text-editor-screenshot.png": "/static/media/text-editor-screenshot.8b2c75cbce366a82ccee.png",
+    "static/media/TaskTrainLoginScreenshot.png": "/static/media/TaskTrainLoginScreenshot.5c8560f23e928bce49df.png",
+    "index.html": "/index.html",
+    "main.22d9e1e7.css.map": "/static/css/main.22d9e1e7.css.map",
+    "main.e3dd0726.js.map": "/static/js/main.e3dd0726.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cd826d5.css",
-    "static/js/main.583e94ae.js"
+    "static/css/main.22d9e1e7.css",
+    "static/js/main.e3dd0726.js"
   ]
 }

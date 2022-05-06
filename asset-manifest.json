@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.22d9e1e7.css",
-    "main.js": "/static/js/main.fca28172.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/FancyMe.JPG": "/static/media/FancyMe.19072ac068ce49def3b9.JPG",
-    "static/media/Pawpal-screenshot.png": "/static/media/Pawpal-screenshot.8fc536a07a40a3a6f74a.png",
-    "static/media/cherryblossom.png": "/static/media/cherryblossom.b7d41b8b4b2ebe34354c.png",
-    "static/media/employeetracker.png": "/static/media/employeetracker.9af42a82a59efe56672b.png",
-    "static/media/weather.png": "/static/media/weather.096a3edca457e5aa6d46.png",
-    "static/media/notetaker.png": "/static/media/notetaker.8c8062e60af89d834d16.png",
-    "static/media/jmresume.pdf": "/static/media/jmresume.bd4738da96f3cff05262.pdf",
-    "static/media/text-editor-screenshot.png": "/static/media/text-editor-screenshot.8b2c75cbce366a82ccee.png",
-    "static/media/TaskTrainLoginScreenshot.png": "/static/media/TaskTrainLoginScreenshot.5c8560f23e928bce49df.png",
-    "index.html": "/index.html",
-    "main.22d9e1e7.css.map": "/static/css/main.22d9e1e7.css.map",
-    "main.fca28172.js.map": "/static/js/main.fca28172.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.a69c023e.css",
+    "main.js": "/react-portfolio/static/js/main.65df4c5b.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/FancyMe.JPG": "/react-portfolio/static/media/FancyMe.19072ac068ce49def3b9.JPG",
+    "static/media/Pawpal-screenshot.png": "/react-portfolio/static/media/Pawpal-screenshot.8fc536a07a40a3a6f74a.png",
+    "static/media/cherryblossom.png": "/react-portfolio/static/media/cherryblossom.b7d41b8b4b2ebe34354c.png",
+    "static/media/employeetracker.png": "/react-portfolio/static/media/employeetracker.9af42a82a59efe56672b.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.096a3edca457e5aa6d46.png",
+    "static/media/notetaker.png": "/react-portfolio/static/media/notetaker.8c8062e60af89d834d16.png",
+    "static/media/jmresume.pdf": "/react-portfolio/static/media/jmresume.bd4738da96f3cff05262.pdf",
+    "static/media/text-editor-screenshot.png": "/react-portfolio/static/media/text-editor-screenshot.8b2c75cbce366a82ccee.png",
+    "static/media/TaskTrainLoginScreenshot.png": "/react-portfolio/static/media/TaskTrainLoginScreenshot.5c8560f23e928bce49df.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.a69c023e.css.map": "/react-portfolio/static/css/main.a69c023e.css.map",
+    "main.65df4c5b.js.map": "/react-portfolio/static/js/main.65df4c5b.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22d9e1e7.css",
-    "static/js/main.fca28172.js"
+    "static/css/main.a69c023e.css",
+    "static/js/main.65df4c5b.js"
   ]
 }

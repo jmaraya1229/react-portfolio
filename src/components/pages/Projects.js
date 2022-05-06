@@ -13,25 +13,25 @@ const styles ={
     },
     h2: {
         fontSize: '35px',
-        backgroundColor: 'white',
-        opacity: '.8',
         borderRadius: '20px',
+        padding: '5px'
     },
     p: {
         fontSize: '20px',
-        backgroundColor: 'white',
-        opacity: '.8',
         borderRadius: '20px',
-        margin: '15px'
+        margin: '15px',
+        padding: '5px'
     },
     div:{
         border: '1px solid black',
         padding: '5px',
         width: '500px',
+        backgroundColor: 'white',
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'center',
     },
+
     flex: {
         display: 'flex',
         flexWrap: 'wrap',
@@ -41,13 +41,20 @@ const styles ={
     }
 }
 
+function MouseOver(event) {
+    event.target.style.background = 'pink';
+  }
+  function MouseOut(event){
+    event.target.style.background='white';
+  }
+
 function Projects() {
     return (
         <div>
             <h1 style={styles.h1}>Projects</h1>
             <div style={styles.flex}>
-                <div style={styles.div}>
-                    <h2 style={styles.h2}>
+                <div style={styles.div} onMouseOver={MouseOver} onMouseOut={MouseOut}>
+                    <h2 style={styles.h2} >
                         <ion-icon name="train-outline"></ion-icon>
                         Task Train
                     </h2>
@@ -70,7 +77,7 @@ function Projects() {
                     </a>
                 </div>
 
-                <div style={styles.div}>
+                <div style={styles.div} onMouseOver={MouseOver} onMouseOut={MouseOut}>
                     <h2 style={styles.h2}>
                         <ion-icon name="paw-outline"></ion-icon>
                         Pawpal
@@ -94,7 +101,7 @@ function Projects() {
                     </a>
                 </div>
 
-                <div style={styles.div}>
+                <div style={styles.div} onMouseOver={MouseOver} onMouseOut={MouseOut}>
                     <h2 style={styles.h2}>
                         <ion-icon name="document-text-outline"></ion-icon>
                         Just Another Text Editor
